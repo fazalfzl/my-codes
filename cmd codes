@@ -1,2 +1,2 @@
 // to rename the files inside a folder as the folder's name, use the code(expecting single file)
-for /d %a in (*) do for %b in (%a\*) do ren %b %a%~xb
+for /d %a in (*) do for %b in (%a\*) do ren "%b" %a%~xb
